@@ -1,4 +1,7 @@
-
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
 body{
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
@@ -6,10 +9,13 @@ body{
 h1{
     font-size: 50px;
 }
-h1 span{
+h2{
+    font-size: 40px;
+}
+span{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
 }
@@ -36,4 +42,36 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-class{
+    display: flex;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+    
+}
+#border{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+}
+#border2{
+    border-left: 10px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+footer p{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
